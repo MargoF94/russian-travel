@@ -1,0 +1,8 @@
+.place__website {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  align-self: end;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-end;
+}

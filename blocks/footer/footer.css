@@ -1,0 +1,12 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-content: flex-end;
+  width: calc(100% - (48px*2));
+}
+
+@media screen and (min-width: 1281px) {
+  .footer {
+    width: 1184px;
+  }
+}

@@ -1,0 +1,12 @@
+.header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  width: calc(100% - (48px*2));
+}
+
+@media screen and (min-width: 1281px) {
+  .header {
+    width: 1184px;
+  }
+}
