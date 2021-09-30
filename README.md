@@ -72,4 +72,4 @@
 
 ## Посмотреть проект
 
-[Markdown Live Preview](https://markdownlivepreview.com/)
+[Нажми меня](https://margof94.github.io/russian-travel/)
