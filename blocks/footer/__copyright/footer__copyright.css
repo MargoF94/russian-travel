@@ -7,3 +7,10 @@
   line-height: 16px;
   color: #FFFFFF;
 }
+
+@media screen and (max-width: 767px) {
+  .footer__link {
+    font-size: 14px;
+    line-height: 14px;
+  }
+}

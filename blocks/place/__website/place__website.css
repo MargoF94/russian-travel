@@ -6,3 +6,12 @@
   flex-direction: column;
   align-content: flex-end;
 }
+
+@media screen and (max-width: 767px) {
+  .place__website {
+    grid-row: 2/3;
+    grid-column: span 1;
+    min-width: 288px;
+    margin: 0 16px;
+  }
+}

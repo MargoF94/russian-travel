@@ -1,3 +1,16 @@
 .intro {
-  
+  width: 690px;
+}
+
+@media screen and (max-width: 1023px) {
+  .intro {
+    min-width: 720px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .intro {
+    width: calc(100% - (16px*2));
+    min-width: 288px;
+  }
 }
