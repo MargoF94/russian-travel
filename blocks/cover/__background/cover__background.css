@@ -21,6 +21,7 @@
   background: #2A2C2F;
   opacity: 0.3;
   z-index: -1;
+  transition: opacity 0.5s linear;
 }
 
 .cover__background:hover::after {
@@ -35,12 +36,6 @@
 }
 
 @media screen and (max-width: 1023px) {
-  .cover__background {
-    min-height: calc(100vw/1.6);
-  }
-}
-
-@media screen and (max-width: 767px) {
   .cover__background {
     min-height: calc(100vw/1.6);
   }
