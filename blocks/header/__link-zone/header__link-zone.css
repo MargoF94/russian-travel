@@ -1,6 +1,6 @@
 .header__link-zone {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   gap: 18px;
   list-style: none;
 }
